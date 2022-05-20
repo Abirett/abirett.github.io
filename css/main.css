@@ -678,3 +678,16 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+/* Skills Progress Bar Animation */
+.revealx{
+    position: relative;
+    transform: translateX(-12px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+  
+.revealx.active{
+    transform: translateX(0);
+    opacity: 1;
+}

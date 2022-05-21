@@ -646,6 +646,9 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+    footer span {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 500px) {

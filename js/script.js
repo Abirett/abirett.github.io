@@ -71,3 +71,17 @@ $(document).ready(function(){
         }
     });
 });
+
+/*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2000,
+    delay: 200,
+//     reset: true
+});
+
+sr.reveal('.about-content',{}); 
+sr.reveal('.serv-content',{delay: 400}); 
+sr.reveal('.skills-content .left',{ interval: 200}); 
+sr.reveal('.contact-content',{interval:200});

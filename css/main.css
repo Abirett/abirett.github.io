@@ -649,10 +649,6 @@ footer span a:hover{
     footer span {
         font-size: 16px;
     }
-    .msize {
-        height:390px;
-        width:410px;
-    }
 }
 
 @media (max-width: 500px) {
@@ -679,17 +675,13 @@ footer span a:hover{
     .scroll-up-btn{
         right: 15px;
         bottom: 15px;
-        height: 38px;
-        width: 35px;
+        height: 37px;
+        width: 34px;
         font-size: 23px;
         line-height: 38px;
     }
     footer span {
         font-size: 14px;
-    }
-    .msize {
-        height:390px;
-        width:410px;
     }
 }
 
@@ -706,49 +698,19 @@ footer span a:hover{
     opacity: 1;
 }
 
-/* Picture Animation on About Section */
-::selection{
-    color: #fff;
-    background: #1cc7d0;
-}
+
+/* Left Side About Section */
 .wrapper{
     height: 400px;
     width: 420px;
     position: relative;
-    transform-style: preserve-3d;
-      perspective: 600px;
 }
-.wrapper .card{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    padding: 5px;
-    background: #fff;
-    border-radius: 10px;
-    transform: translateY(0deg);
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
-    transition: transform 0.7s cubic-bezier(0.4,0.2,0.2,1);
-}
-.wrapper:hover > .front-face{
-    transform: rotateY(-180deg);
-}
-.wrapper .card img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
+
 .wrapper .back-face{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    transform: rotateY(180deg);
-}
-.wrapper:hover > .back-face{
-    transform: rotateY(0deg);
 }
 
 .wrapper .back-face .info{
@@ -759,7 +721,7 @@ footer span a:hover{
     font-weight: 500;
 }
 .back-face .info .title::after{
-    content: "Developer";
+    content: "Web Expert";
 }
 .back-face ul{
     display: flex;

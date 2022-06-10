@@ -649,6 +649,10 @@ footer span a:hover{
     footer span {
         font-size: 16px;
     }
+    .msize {
+        height:390px;
+        width:410px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -682,6 +686,10 @@ footer span a:hover{
     }
     footer span {
         font-size: 14px;
+    }
+    .msize {
+        height:390px;
+        width:410px;
     }
 }
 

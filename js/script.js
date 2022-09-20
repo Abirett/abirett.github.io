@@ -85,11 +85,3 @@ sr.reveal('.about-content',{});
 sr.reveal('.serv-content',{delay: 400}); 
 sr.reveal('.skills-content .left',{ interval: 200}); 
 sr.reveal('.contact-content',{interval:200});
-
-
-// Get Current Year
-  var newDate = new Date();
-  var intYear = newDate.getFullYear();
-  $("#my_current_age").html(intYear - 2000); //Show My Current Age
-  $("#this_year").html(intYear); //Show Current Year in The Footer
-});

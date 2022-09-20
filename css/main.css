@@ -257,6 +257,16 @@ section .title::after{
     background: none;
 }
 
+
+.active-status {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #FF0000; /* #FF0000 for Red color & #00df6f for Green color */
+  display: inline-block;
+}
+
+
 /* services section styling */
 .services, .teams{
     color:#fff;

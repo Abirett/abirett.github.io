@@ -81,7 +81,6 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
-sr.reveal('.about-content',{}); 
+sr.reveal('.wrapper',{delay: 450});
 sr.reveal('.serv-content',{delay: 400}); 
-sr.reveal('.skills-content .left',{ interval: 200}); 
-sr.reveal('.contact-content',{interval:200});
+sr.reveal('.skills-content .left',{ interval: 200});

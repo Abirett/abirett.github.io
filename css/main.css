@@ -401,7 +401,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: dodgerblue;
+    background: rgb(14, 122, 230);
 }
 .teams .carousel .card .box{
     display: flex;

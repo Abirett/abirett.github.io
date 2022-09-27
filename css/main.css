@@ -291,7 +291,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: dodgerblue;
+    background: rgb(14, 122, 230);
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;

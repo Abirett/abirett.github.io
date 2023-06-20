@@ -84,3 +84,13 @@ const sr = ScrollReveal({
 sr.reveal('.wrapper',{delay: 450});
 sr.reveal('.serv-content',{delay: 400}); 
 sr.reveal('.skills-content .left',{ interval: 200});
+
+
+// Get Age
+const age = new Date().getFullYear() - 2000;
+document.getElementById('age').innerHTML = age;
+
+// Get Year
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("year").innerHTML = year;
